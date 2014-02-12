@@ -1,0 +1,19 @@
+FORGE
+  remote: http://forge.puppetlabs.com
+  specs:
+    puppetlabs/concat (1.1.0-rc1)
+      puppetlabs/stdlib (>= 3.0.0)
+    puppetlabs/stdlib (4.1.0)
+
+GIT
+  remote: https://github.com/camptocamp/puppet-apache.git
+  ref: master
+  sha: c1c6aebbfa58a89781185619f462ee96f1321f46
+  specs:
+    apache (0.11.0)
+      puppetlabs/concat (>= 1.0.0)
+      puppetlabs/stdlib (>= 2.4.0)
+
+DEPENDENCIES
+  apache (>= 0)
+
