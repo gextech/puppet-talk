@@ -3,8 +3,12 @@ puppet-talk
 
 puppet-talk for gex
 
+10.177.62.100
+
 vagrant box add debian-wheezy http://169.254.187.171/~tomas/boxes/debian-wheezy-puppet.box 
+
 vagrant box add debian-wheezy-foreman http://169.254.187.171/~tomas/boxes/debian-wheezy-puppet-foreman.box 
+
 vagrant destroy
 vagrant up
 puppet apply
