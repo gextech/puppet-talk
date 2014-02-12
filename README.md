@@ -25,6 +25,7 @@ certname = agent.example.local
 puppet agent --test
 
 on master
+ln -s /puppet-src/modules/ /etc/puppet/environments/production/modules
 puppet cert list
 puppet cert sign agent.example.local
 
